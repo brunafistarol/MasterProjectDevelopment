@@ -28,32 +28,32 @@ subplot(3,2,1)
 scatter(G_class_data{1}(:,1),G_class_data{1}(:,2));
 hold on
 scatter(G_class_data{2}(:,1),G_class_data{2}(:,2));
-legend({'class 0','class 1 ','class 2'},'location',"northwest");
+legend({'class 1 ','class 2'},'location',"northwest");
 subplot(3,2,2)
 scatter(G_class_data{1}(:,1),G_class_data{1}(:,3));
 hold on
 scatter(G_class_data{2}(:,1),G_class_data{2}(:,3));
-legend({'class 0','class 1 ','class 2'},'location',"northwest");
+legend({'class 1 ','class 2'},'location',"northwest");
 subplot(3,2,3)
 scatter(G_class_data{1}(:,1),G_class_data{1}(:,4));
 hold on
 scatter(G_class_data{2}(:,1),G_class_data{2}(:,4));
-legend({'class 0','class 1 ','class 2'},'location',"northwest");
+legend({'class 1 ','class 2'},'location',"northwest");
 subplot(3,2,4)
 scatter(G_class_data{1}(:,2),G_class_data{1}(:,3));
 hold on
 scatter(G_class_data{2}(:,2),G_class_data{2}(:,3));
-legend({'class 0','class 1 ','class 2'},'location',"northwest");
+legend({'class 1 ','class 2'},'location',"northwest");
 subplot(3,2,5)
 scatter(G_class_data{1}(:,2),G_class_data{1}(:,4));
 hold on
 scatter(G_class_data{2}(:,2),G_class_data{2}(:,4));
-legend({'class 0','class 1 ','class 2'},'location',"northwest");
+legend({'class 1 ','class 2'},'location',"northwest");
 subplot(3,2,6)
 scatter(G_class_data{1}(:,3),G_class_data{1}(:,4));
 hold on
 scatter(G_class_data{2}(:,3),G_class_data{2}(:,4));
-legend({'class 0','class 1 ','class 2'},'location',"northwest");
+legend({'class 1 ','class 2'},'location',"northwest");
 hold off
 
 %in this case we will use the for bucle because the functions that estimate
